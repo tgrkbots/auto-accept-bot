@@ -1,0 +1,42 @@
+{
+    "name": "autoaccepterbot",
+    "logo": "https://telegra.ph//file/c0ad1ea7ca0b1608d36d3.jpg",
+    "keywords": [
+        "AutoJoinBot",
+        "JoinRequestbot"
+    ],
+    "repository": "https://github.com/akaash545/auto-accept-bot",
+    "env": {
+        "CH1": {
+            "description": "Chat1",
+            "required": "True"
+        },
+        "CH2": {
+            "description": "Ch2",
+            "required": "True"
+        },
+        "CH3": {
+            "description": "Ch3",
+            "required": "True"
+        },
+        "CH4": {
+            "description": "Ch4",
+            "required": "True"
+        },
+        "CH5": {
+            "description": "Ch5",
+            "required": "True"
+        },
+        "CH6": {
+            "description": "Ch6",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-20",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
