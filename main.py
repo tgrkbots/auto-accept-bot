@@ -5,15 +5,13 @@ import os
 
 ch1_link=os.environ.get('CH1_LINK','https://t.me/crazebots')
 ch2_link=os.environ.get('CH2_LINK','https://t.me/crazebots')
-ch3_link=os.environ.get('CH3_LINK','https://t.me/crazebots')
+
 
 ch1_title=os.environ.get('CH1_TITLE','👉 Channel 1 👈')
 ch2_title=os.environ.get('CH2_TITLE','👉 Channel 2 👈')
-ch3_title=os.environ.get('CH3_TITLE','👉 Channel 3 👈')
 
 
-sudo_users = [5300654934, 5294965763, 874964742]
-
+BOT_TOKEN=os.environ.get('BOT_TOKEN','5423826084:AAG5ESfMQPvDRgVv8dwcWWzgkt6sgVh1Wno')
 
 API_ID = 16514976
 API_HASH = '40bd8634b3836468bb2fb7eafe39d81a'
@@ -29,7 +27,7 @@ def start_cmd(_, M):
         M.chat.id, 'AgACAgEAAxkBAAIBQWNoe2BujKjijWmZI4a-G-zZmvbMAAIhqjEbQk1JR4ajQGkMIqBJAAgBAAMCAAN5AAceBA', text)
 
 
-button = [[InlineKeyboardButton(f"{ch1_title}", url=f"{ch1_link}")],[InlineKeyboardButton(f"{ch2_title}", url=f"{ch2_link}")],[InlineKeyboardButton(f"{ch3_title}", url=f"{ch3_link}")]]
+button = [[InlineKeyboardButton(f"{ch1_title}", url=f"{ch1_link}")],[InlineKeyboardButton(f"{ch2_title}", url=f"{ch2_link}")],]
 
 @app.on_chat_join_request()
 def reqs_handler(client: app, message: ChatJoinRequest):
