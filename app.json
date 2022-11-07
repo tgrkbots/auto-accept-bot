@@ -15,10 +15,6 @@
             "description": "Ch2",
             "required": "True"
         },
-        "CH3_LINK": {
-            "description": "Ch3",
-            "required": "True"
-        },
         "CH1_TITLE": {
             "description": "Ch4",
             "required": "True"
@@ -27,8 +23,8 @@
             "description": "Ch5",
             "required": "True"
         },
-        "CH3_TITLE": {
-            "description": "Ch6",
+        "BOT_TOKEN": {
+            "description": "BOT-TOKEN",
             "required": "True"
         }
     },
