@@ -16,7 +16,7 @@ BOT_TOKEN=os.environ.get('BOT_TOKEN','5423826084:AAG5ESfMQPvDRgVv8dwcWWzgkt6sgVh
 API_ID = 16514976
 API_HASH = '40bd8634b3836468bb2fb7eafe39d81a'
 app = Client("ApprovalReqBot", api_id=API_ID,
-             api_hash=API_HASH, bot_token="5423826084:AAG5ESfMQPvDRgVv8dwcWWzgkt6sgVh1Wno")
+             api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 
 @app.on_message(filters.command('start'))
