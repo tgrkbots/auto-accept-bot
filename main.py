@@ -24,7 +24,7 @@ def start_cmd(_, M):
     #button2 = [[ InlineKeyboardButton("🆎 About", callback_data="aboutbtn"), InlineKeyboardButton("🆘 Help", callback_data="helpbtn") ],]
     text = f"Hello {M.from_user.mention} 👋\n\nI'm an auto approve Admin Join Requests Bot.\n\n<b>I can approve users in Groups/Channels.</b>Add me to your chat and promote me to admin with add members permission."
     app.send_photo(
-        M.chat.id, 'AgACAgEAAxkBAAIBQWNoe2BujKjijWmZI4a-G-zZmvbMAAIhqjEbQk1JR4ajQGkMIqBJAAgBAAMCAAN5AAceBA', text)
+        M.chat.id, 'AgACAgEAAxkBAAMrY2kf8xOY7TNIdqa91Mbjxm5jhMAAAiGqMRtCTUlHCF1quWgHoiIACAEAAwIAA3kABx4E', text)
 
 
 button = [[InlineKeyboardButton(f"{ch1_title}", url=f"{ch1_link}")],[InlineKeyboardButton(f"{ch2_title}", url=f"{ch2_link}")],]
