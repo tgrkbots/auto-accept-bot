@@ -10,6 +10,10 @@
         "BOT_TOKEN": {
             "description": "BOT-TOKEN",
             "required": "True"
+        },
+        "CHAT_ID": {
+            "description": "Chat id ",
+            "required": "True"
         }
     },
     "stack": "heroku-22",
