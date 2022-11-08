@@ -83,7 +83,7 @@ def reqs_handler(client: app, message: ChatJoinRequest):
     try:
         app.approve_chat_join_request(chatid.id, user.id)
         app.send_message(
-            user.id, f'<b>Hello</b> {user.mention}\n\nYour Request To Join <b>{chatid.title}</b> has been approved!', reply_markup=InlineKeyboardMarkup(button))
+            user.id, f'<b>Hello</b> {user.mention}\n\nYour Request To Join <b>{chatid.title}</b> has been approved!', reply_markup=button)
 
     except UserChannelsTooMuch:
         pass
