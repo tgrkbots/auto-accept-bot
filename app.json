@@ -7,22 +7,6 @@
     ],
     "repository": "https://github.com/akaash545/auto-accept-bot",
     "env": {
-        "CH1_LINK": {
-            "description": "Chat1",
-            "required": "True"
-        },
-        "CH2_LINK": {
-            "description": "Ch2",
-            "required": "True"
-        },
-        "CH1_TITLE": {
-            "description": "Ch4",
-            "required": "True"
-        },
-        "CH2_TITLE": {
-            "description": "Ch5",
-            "required": "True"
-        },
         "BOT_TOKEN": {
             "description": "BOT-TOKEN",
             "required": "True"
